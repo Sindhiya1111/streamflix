@@ -6,6 +6,7 @@ function Banner() {
       className="banner"
       style={{
         backgroundSize: "cover",
+        backgroundImage: `url("http://localhost:8080/browse/movie/poster?name=gg.jpeg")`,
         backgroundPosition: "center center",
       }}
     >
@@ -17,7 +18,7 @@ function Banner() {
         }}
       >
         {/*title*/}
-        <h1 className="banner_title">STREAMFLIX</h1>
+        <h1 className="banner_title"></h1>
 
         {/*2 buttons*/}
         <div className="banner_buttons">

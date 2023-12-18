@@ -9,7 +9,7 @@ function App() {
     <div className="app">
       <Nav />
       <Banner />
-      <Row title="Trending now" fetchUrl={requests.fetchTrending} isLargeRow />
+      <Row title="Streaming now" fetchUrl={requests.fetchTrending} isLargeRow />
     </div>
   );
 }
